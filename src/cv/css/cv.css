@@ -106,3 +106,14 @@ span.item-date {
 .sub-lv2 {
   padding-left: 3rem;
 }
+
+@media only screen and (orientation: landscape) and (min-width: 812px) and (min-height: 375) {
+  .cv-content-right {
+    min-height: 100vh;
+  }
+
+  .view-content {
+    min-height: 90vh;
+    max-height: 100vh;
+  }
+}

@@ -12,7 +12,6 @@ import Backdrop from './backdrop/backdrop';
 
 export default function CV() {
   const [linkActive, setLinkActive] = useState(1);
-  console.log('link: ', linkActive);
   return (
     <div className="cv">
       <div className="cv-container">
