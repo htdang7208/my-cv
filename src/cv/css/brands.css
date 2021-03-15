@@ -1,0 +1,23 @@
+.brands {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  padding: 0 2rem;
+}
+
+.brands a {
+  display: inherit;
+  margin-left: 1rem;
+  color: #262626;
+  text-decoration: none;
+  font-size: 42px;
+}
+
+.brands a:hover {
+  color: #ffd302;
+  background-color: #262626;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  box-shadow: 0 1px 15px rgb(38 38 38 / 40%), 0 1px 6px rgb(38 38 38 / 40%);
+}

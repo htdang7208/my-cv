@@ -1,0 +1,24 @@
+.objectives {
+  min-height: 12vh;
+  margin-bottom: 3rem;
+  padding: 0 2rem;
+}
+
+.objectives h3 {
+  letter-spacing: 1.5px;
+  font-family: Poppins-Regular, sans-serif;
+}
+
+.sub-objective p {
+  padding-left: 1rem;
+  font-family: Poppins-Regular, sans-serif;
+}
+
+.sub-objective p > svg {
+  margin-right: 1rem;
+}
+
+.sub-objective {
+  padding-left: 4rem;
+  display: flex;
+}

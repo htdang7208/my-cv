@@ -1,0 +1,32 @@
+.fontawesome-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffd302;
+  display: flex;
+  margin: 0.25rem 1rem 0.25rem 0;
+  box-shadow: 0 1px 4px rgb(255 211 2 / 50%), 0 1px 3px rgb(38 38 38 / 50%);
+}
+
+.fontawesome-icon svg {
+  font-size: 20px;
+  color: #262626;
+  margin: auto;
+}
+
+.item-title {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.horiz-seperate {
+  border: 2px solid #ffd302;
+  padding: 0 0.825rem;
+  margin-bottom: 0.825rem;
+}

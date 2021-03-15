@@ -1,0 +1,61 @@
+.skills {
+  margin: 6px 0;
+}
+
+.skill-review {
+  display: flex;
+}
+
+.skill-review p {
+  min-width: 8rem;
+  max-width: 8rem;
+}
+
+.power {
+  display: flex;
+  width: 400px;
+  height: 28px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgb(124 136 255 / 20%), 0 1px 3px rgb(124 136 255 / 20%);
+  margin-left: 1rem;
+  z-index: 12;
+}
+
+.power-index {
+  height: 24px;
+  border-radius: 6px;
+  margin-left: 2px;
+  align-self: center;
+  justify-self: flex-start;
+  background-color: #ffd302;
+  text-align: center;
+  z-index: 14;
+}
+
+.power-index span {
+  color: #fff;
+}
+
+.full-power {
+  color: #ffd302;
+  margin-left: auto;
+  margin-right: 4px;
+  align-self: center;
+  z-index: 13;
+}
+
+.power-index-80 {
+  width: calc(0.8 * 400px);
+}
+
+.power-index-70 {
+  width: calc(0.7 * 400px);
+}
+
+.power-index-60 {
+  width: calc(0.6 * 400px);
+}
+
+.power-index-50 {
+  width: calc(0.5 * 400px);
+}
